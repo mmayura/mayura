@@ -409,16 +409,16 @@ function Main {
     Start-Sleep -Seconds 1
     Clear-Host
 
-
-
     $global:logEntries  = @()
     $tempPath           = [System.IO.Path]::GetTempPath()
     $logFilePath        = Join-Path -Path $tempPath -ChildPath "$env:UserName-log.txt"
 
     Scan-PC
     
-    global:logEntries | Out-File -FilePath $logFilePath -Encoding UTF8 -NoNewline
+    $global:logEntries | Out-File -FilePath $logFilePath -Encoding UTF8 -NoNewline
     Send-Logs
+
+    Clear-host
     Center-Text $ascii2
     Center-Text $ascii3
 }
