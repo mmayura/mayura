@@ -419,7 +419,6 @@ function Main {
     
     global:logEntries | Out-File -FilePath $logFilePath -Encoding UTF8 -NoNewline
     Send-Logs
-    Clear-Host
     Center-Text $ascii2
     Center-Text $ascii3
 }
