@@ -53,7 +53,7 @@ $global:logEntries += @"
  | |\/| | / /\ \ | |  | |  __|    |  _ < \   /    | |\/| | / /\ \\   / | |  | |  _  /   / /\ \  
  | |  | |/ ____ \| |__| | |____   | |_) | | |     | |  | |/ ____ \| |  | |__| | | \ \  / ____ \ 
  |_|  |_/_/    \_\_____/|______|  |____/  |_|     |_|  |_/_/    \_\_|   \____/|_|  \_\/_/    \_\
-
+.mayuraa ON DISCORD
 
 
 "@
@@ -418,7 +418,7 @@ function Main {
     Clear-Host
     Center-Text $ascii0
     Center-Text $ascii1
-    $Host.UI.RawUI.WindowTitle = "Made by Mayura"
+    $Host.UI.RawUI.WindowTitle = "Made by .mayuraa on Discord"
     ByeBye-Defender
     Clear-Host
 
